@@ -26,7 +26,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-600 ">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-              <h1 className="text-xl font-burtons">
+              <h1 className="text-xl font-burtons dark:text-white">
                 D. Santana
               </h1>
               <ul className="flex items-center">
@@ -53,15 +53,15 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <a target='_black' href='https://www.linkedin.com/in/diego-alves-santana-0720b317a/'>
-            <AiFillLinkedin className='hover:fill-blue-700 hover:duration-200 hover:delay-200' />
+            <AiFillLinkedin className='hover:fill-blue-700 hover:duration-200 hover:delay-200 dark:fill-white' />
             </a>            
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-200  rounded-full w-40 h-40 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover"/>
           </div>
         </section>
 
-        <section>
+        <section className='sm:mx-auto sm:flex-col sm:flex sm:justify-center sm:items-center'>
           <article className="py-8">
             <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
           </article>  
@@ -98,7 +98,7 @@ export default function Home() {
         </section>
         <section>
           <article>
-            <h3 className="text-3xl py-1">Portifolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white">Portifolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
             Since the beginning of my jorney as a freelancer developer, ve done remote work for
               <span className="text-teal-500">
